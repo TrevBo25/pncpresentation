@@ -1,0 +1,46 @@
+.bigme{
+    height: 250px;
+    width: 100%;
+    background: url("../assets/portfoliobackground.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    color: $lightfont;
+    font-family: $font2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .mepic{
+        height: 100px;
+        width: 100px;
+        border: .5px $fontred solid;
+        border-radius: 50%;
+        margin-bottom: 20px;
+        overflow: hidden;
+        cursor: pointer;
+        .imgme{
+            max-width: 100%;
+            max-height: 100%
+        }
+    }
+    .name{
+        font-size: 40px;
+        margin-bottom:10px;
+        font-family: $font1;
+        cursor: pointer;
+    }
+    .redbar{
+        height: 2px;
+        width: 300px;
+        background-color: $backgroundred;
+        margin-bottom: 15px;
+        border-radius: 3px;
+    }
+    .title{
+        font-size:20px;
+        cursor: pointer;
+    }
+}

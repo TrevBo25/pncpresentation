@@ -1,0 +1,95 @@
+.bigskills{
+    min-height: 100%;
+    width: 100%;
+    color: black;
+    background-color: $lightbackground;
+    font-family: $font2;
+    padding-top: 10px;
+    transition: all 1s ease;
+    position: relative;
+    z-index: 1;
+    .skillstitle{
+        font-family: $font1;
+        font-size: 40px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        color: rgb(65, 65, 65);
+    }
+    .skillssubtitle{
+        font-family: $font1;
+        font-size: 30px;
+        color: $backgroundred;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+    .skillssubtitlet{
+        font-family: $font1;
+        font-size: 30px;
+        color: $backgroundred;
+        padding-left: 10px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .skillstext{
+        word-wrap: normal;
+        margin-right: 20px;
+        padding-left: 10px;
+        font-size: 17px;
+    }
+    .techlist{
+        padding-left: 40px;
+        list-style-type: circle
+    }
+    .techlistitem{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+}
+.bigskillsdown{
+    margin-top: 220px;
+    min-height: 100%;
+    width: 100%;
+    color: black;
+    background-color: $lightbackground;
+    font-family: $font2;
+    padding-top: 10px;
+    transition: all 1s ease;
+    position: relative;
+    z-index: 1;
+    .skillstitle{
+        font-family: $font1;
+        font-size: 40px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        color: rgb(65, 65, 65);
+    }
+    .skillssubtitle{
+        font-family: $font1;
+        font-size: 30px;
+        color: $backgroundred;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+    .skillssubtitlet{
+        font-family: $font1;
+        font-size: 30px;
+        color: $backgroundred;
+        padding-left: 10px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .skillstext{
+        word-wrap: normal;
+        margin-right: 20px;
+        padding-left: 10px;
+        font-size: 17px;
+    }
+    .techlist{
+        padding-left: 40px;
+        list-style-type: circle
+    }
+    .techlistitem{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+}

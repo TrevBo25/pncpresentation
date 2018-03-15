@@ -1,0 +1,71 @@
+a{color: $fontred}
+
+.big{
+    height: 50px;
+    width: 100%;
+    font-family: $font2;
+    .up{
+        width: 100%;
+        height: 50px;
+        background-color: $backgroundred;
+        border-bottom: 1px $fontred solid;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .links{
+            height: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            color: $fontred;
+            .link{
+                margin-left: 8px;
+            }
+        }
+        .burgerside{
+            height: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            color: $fontred;
+            .burger{
+                .burgericon{
+                    margin-right: 15px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .down{
+        width: 100%;
+        height: 220px;
+        background-color: $backgroundred;
+        border-bottom: 1px $fontred solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-end;
+        .listitem{
+            color: white;
+            margin-right: 15px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    }
+    .notdown{
+        width: 100%;
+        height: 220px;
+        background-color: $backgroundred;
+        border-bottom: 1px $fontred solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-end;
+        color: white;
+        .listitem{
+            color: white;
+            margin-right: 15px;
+            font-size: 20px;
+        }
+    }
+}

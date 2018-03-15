@@ -1,0 +1,128 @@
+.bigcontact{
+    min-height: 100%;
+    width: 100%;
+    color: black;
+    background-color: $lightbackground;
+    font-family: $font2;
+    padding-top: 10px;
+    transition: all 1s ease;
+    position: relative;
+    z-index: 1;
+    .contacttitle{
+        font-family: $font1;
+        font-size: 40px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        color: rgb(65, 65, 65);
+    }
+    .contactwords{
+        word-wrap: normal;
+        margin-right: 20px;
+        padding-left: 10px;
+        margin-bottom: 15px;
+    }
+    .father{
+        display: flex;
+        align-items: center;
+        .contacttextl{
+            word-wrap: normal;
+            margin-right: 20px;
+            padding-left: 10px;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+        .linksholder{
+            height: 140px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            .contacttextr{
+                word-wrap: normal;
+                padding-left: 10px;
+                font-size: 15px;
+                margin-bottom: 15px;
+                color: $backgroundred
+            }
+        }
+    }
+    a{
+        text-decoration: none;
+    }
+    .resume{
+        color: white;
+        background-color: $backgroundred;
+        font-family: $font1;
+        width: 150px;
+        font-size: 25px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px;
+        margin: auto;
+        &:hover{
+            background-color: black;
+        }
+    }
+}
+.bigcontactdown{
+    margin-top: 220px;
+    min-height: 100%;
+    width: 100%;
+    color: black;
+    background-color: $lightbackground;
+    font-family: $font2;
+    padding-top: 10px;
+    transition: all 1s ease;
+    position: relative;
+    z-index: 1;
+    .contacttitle{
+        font-family: $font1;
+        font-size: 40px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        color: rgb(65, 65, 65);
+    }
+    .contactwords{
+        word-wrap: normal;
+        margin-right: 20px;
+        padding-left: 10px;
+        margin-bottom: 15px;
+    }
+    .father{
+        display: flex;
+        align-items: center;
+        .contacttextl{
+            word-wrap: normal;
+            margin-right: 20px;
+            padding-left: 10px;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+        .linksholder{
+            height: 140px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            .contacttextr{
+                word-wrap: normal;
+                padding-left: 10px;
+                font-size: 15px;
+                margin-bottom: 15px;
+                color: $backgroundred
+            }
+        }
+    }
+    a{
+        text-decoration: none;
+    }
+    .resume{
+        color: white;
+        background-color: $backgroundred;
+        font-family: $font1;
+        width: 150px;
+        font-size: 25px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px;
+        margin: auto;
+    }
+}

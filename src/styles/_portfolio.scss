@@ -1,0 +1,110 @@
+.bigportfolio{
+    min-height: 100%;
+    width: 100%;
+    color: black;
+    background-color: $lightbackground;
+    font-family: $font2;
+    padding-top: 10px;
+    transition: all 1s ease;
+    position: relative;
+    z-index: 1;
+    .portfoliotitle{
+        font-family: $font1;
+        font-size: 40px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        color: rgb(65, 65, 65);
+    }
+    .portfoliosubtitle{
+        font-family: $font1;
+        font-size: 30px;
+        color: $backgroundred;
+        padding-left: 10px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .portfoliotext{
+        word-wrap: normal;
+        margin-right: 20px;
+        padding-left: 10px;
+    }
+    .projectlinks{
+        word-wrap: normal;
+        margin-right: 20px;
+        padding-left: 10px;
+        font-size: 12px;
+        color: red;
+        margin-bottom: 5px;
+    }
+    .gifholder{
+        margin-top: 20px;
+        padding-left: 10px;
+    }
+    .gifitself{
+        max-width: 95%;
+        max-height: auto;
+    }
+    .portfoliosubsubtitle{
+        font-family: $font1;
+        font-size: 20px;
+        color: $backgroundred;
+        padding-left: 10px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}
+.bigportfoliodown{
+    margin-top: 220px;
+    width: 100%;
+    color: black;
+    background-color: $lightbackground;
+    font-family: $font2;
+    padding-top: 10px;
+    transition: all 1s ease;
+    position: relative;
+    z-index: 1;
+    .portfoliotitle{
+        font-family: $font1;
+        font-size: 40px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        color: rgb(65, 65, 65);
+    }
+    .portfoliosubtitle{
+        font-family: $font1;
+        font-size: 30px;
+        color: $backgroundred;
+        padding-left: 10px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .portfoliotext{
+        word-wrap: normal;
+        margin-right: 20px;
+        padding-left: 10px;
+    }
+    .projectlinks{
+        word-wrap: normal;
+        margin-right: 20px;
+        padding-left: 10px;
+        font-size: 12px;
+        color: red;
+        margin-bottom: 5px;
+    }
+    .gifholder{
+        margin-top: 20px;
+        padding-left: 10px;
+    }
+    .gifitself{
+        max-width: 95%;
+        max-height: auto;
+    }
+    .portfoliosubsubtitle{
+        font-family: $font1;
+        font-size: 20px;
+        color: $backgroundred;
+        padding-left: 10px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,81 @@
+.homer{
+    height: 100%;
+    color: black;
+    font-family: $font2;
+    display: flex;
+    align-items: flex-start;
+    padding: 50px 20px 0px 20px;
+    word-wrap: break-word;
+    transition: all 1s ease;
+    position: relative;
+    z-index: 1;
+    margin-top: 1px;
+    background-color: $lightbackground;
+    .homestuff{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 100%;
+        width: 100%;
+        font-family: $font2;
+        text-shadow: 1px 1px .5px black;
+        .homename{
+            font-family: $font1; 
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+        .homedes{
+            font-size: 22px;
+            line-height: 150%;
+            margin-bottom: 20px;
+        }
+        .homebutton{
+            font-size: 18px;
+            padding: 8px 10px 8px 10px;
+            border: 1px black solid;
+            margin-bottom: 20px;
+        }
+    }
+}
+.homerdown{
+    margin-top: 220px;
+    height: 100%;
+    color: black;
+    font-family: $font2;
+    display: flex;
+    align-items: flex-start;
+    padding: 50px 20px 40px 20px;
+    word-wrap: break-word;
+    transition: all 1s ease;
+    position: relative;
+    z-index: 1;
+    background-color: $lightbackground;
+    .homestuff{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 100%;
+        width: 100%;
+        font-family: $font2;
+        text-shadow: 1px 1px .5px black;
+        .homename{
+            font-family: $font1; 
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+        .homedes{
+            font-size: 22px;
+            line-height: 150%;
+            margin-bottom: 20px;
+        }
+        .homebutton{
+            font-size: 18px;
+            padding: 8px 10px 8px 10px;
+            border: 1px black solid;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+    }
+}
