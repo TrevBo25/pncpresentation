@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Ski2 from '../assets/lookawayskii.jpg';
+import Ski2 from '../assets/MEEEEEEEEE.jpg';
 
 class Me extends Component {
   render() {
