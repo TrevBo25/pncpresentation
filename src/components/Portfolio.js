@@ -63,6 +63,11 @@ class Portfolio extends Component {
         <br/>
         <p className="portfoliotext">An example that was built during a 30 minute presentation given on socket.io. Shows a few basic ways sockets can be used.</p>
 
+        <h2 className="portfoliosubsubtitle">Student Assessment Helper</h2>
+        <a href="https://github.com/TrevBo25/assessment-helper" target="_blank" rel="noopener noreferrer"><p className="projectlinks">Repo: https://github.com/TrevBo25/assessment-helper</p></a>
+        <br/>
+        <p className="portfoliotext">An app to make adding students to the GitLab assessments much easier.</p>
+
       </div>
     );
   }
