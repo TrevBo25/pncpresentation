@@ -18,10 +18,10 @@ class Nav extends Component {
                         </div>
                 </div>
                 <div className={this.props.show ? "down" : "notdown" }>
-                        <h1 onClick={() => this.props.changeView(true, "skills")} className="listitem">Skills and Techs</h1>
-                        <h1 onClick={() => this.props.changeView(true, "portfolio")} className="listitem">Portfolio</h1>
-                        <h1 onClick={() => this.props.changeView(true, "about")} className="listitem">About Me</h1>
-                        <h1 onClick={() => this.props.changeView(true, "contact")} className="listitem">Contact</h1>
+                        <h1 onClick={() => this.props.changeView("skills")} className="listitem">Skills and Techs</h1>
+                        <h1 onClick={() => this.props.changeView("portfolio")} className="listitem">Portfolio</h1>
+                        <h1 onClick={() => this.props.changeView("about")} className="listitem">About Me</h1>
+                        <h1 onClick={() => this.props.changeView("contact")} className="listitem">Contact</h1>
                 </div>
             </div>
         );

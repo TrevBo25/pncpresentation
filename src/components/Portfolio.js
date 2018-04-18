@@ -68,6 +68,7 @@ class Portfolio extends Component {
         <br/>
         <p className="portfoliotext">An app to make adding students to the GitLab assessments much easier.</p>
 
+        <br />
       </div>
     );
   }

@@ -11,7 +11,6 @@ class App extends Component {
   constructor(){
     super();
     this.state = {
-        showMe : false,
         view: "home",
         show: false
     }
@@ -19,9 +18,8 @@ class App extends Component {
     this.toggleDropdown = this.toggleDropdown.bind(this);
 }
 
-changeView(bool, str){
+changeView(str){
   this.setState({
-    showMe: bool,
     view: str,
     show: false
   })
@@ -36,9 +34,7 @@ toggleDropdown(){
   render() {
     return (
       <div className="papa">
-        <div className={this.state.showMe ? "" : "no"}>
-          <Me changeView={this.changeView} />
-        </div>
+        <Me changeView={this.changeView} />
         <Nav changeView={this.changeView} toggleDropdown={this.toggleDropdown} show={this.state.show} />
         {this.state.view === "home" 
           ? <Home changeView={this.changeView} show={this.state.show}/> 

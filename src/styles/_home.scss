@@ -76,6 +76,9 @@
             border: 1px black solid;
             margin-bottom: 20px;
             cursor: pointer;
+            &:hover{
+                cursor: pointer;
+            }
         }
     }
 }
